@@ -4,12 +4,11 @@ import java.util.Scanner;
 
 public class task02sumDifferenceProduct {
     public static void main(String[] args){
-        Scanner scannerA= new Scanner(System.in);  // Create a Scanner object
+        Scanner scanner= new Scanner(System.in);  // Create a Scanner object
         System.out.println("Enter a number...");
-        Integer numA = Integer.parseInt(scannerA.nextLine());
-        Scanner scannerB= new Scanner(System.in);  // Create a Scanner object
+        Integer numA = Integer.parseInt(scanner.nextLine());
         System.out.println("Enter another number...");
-        Integer numB = Integer.parseInt(scannerA.nextLine());
+        Integer numB = Integer.parseInt(scanner.nextLine());
         Integer sum = numA + numB;
         Integer difference = numA - numB;
         Integer product = numA * numB;
