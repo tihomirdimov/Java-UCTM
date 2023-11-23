@@ -1,10 +1,9 @@
 package Java01.exercise01;
-
 import java.util.Scanner;
 
 public class task02sumDifferenceProduct {
     public static void main(String[] args){
-        Scanner scanner= new Scanner(System.in);  // Create a Scanner object
+        Scanner scanner= new Scanner(System.in);
         System.out.println("Enter a number...");
         Integer numA = Integer.parseInt(scanner.nextLine());
         System.out.println("Enter another number...");
