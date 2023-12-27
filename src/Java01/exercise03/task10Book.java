@@ -22,7 +22,7 @@ public class task10Book {
         }
 
         public void ToString() {
-            System.out.printf("Книга: %s | Автор: %s | Година: %d | Стриници: %d | Цена: %.2f  ",
+            System.out.printf("Книга: %s | Автор: %s | Година: %d | Стрaници: %d | Цена: %.2f  ",
                     this.title,
                     this.author,
                     this.year,
